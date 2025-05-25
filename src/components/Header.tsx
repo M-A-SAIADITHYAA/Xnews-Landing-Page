@@ -1,8 +1,7 @@
-import { X } from "lucide-react";
-import React from "react";
+
 import { motion } from "motion/react";
 import { navData } from "./nav.ts";
-import { Button } from "./ui/button.tsx";
+
 import { RainbowButton } from "./magicui/rainbow-button.tsx";
 
 const Header = () => {

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import {motion} from "framer-motion"
 import { CardBody, CardContainer, CardItem } from './ui/3d-card'
 

@@ -1,6 +1,4 @@
-import React from 'react'
-import { HeroHighlight } from './ui/hero-highlight'
-import { Sparkle } from 'lucide-react'
+
 import { TypewriterEffectSmooth } from './ui/typewriter-effect'
 import { Button } from './ui/button'
 import { ShootingStars } from './ui/shooting-stars'
