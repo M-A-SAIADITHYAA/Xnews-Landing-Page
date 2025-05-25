@@ -6,9 +6,9 @@ import { RainbowButton } from "./magicui/rainbow-button.tsx";
 
 const Header = () => {
   return (
-    <header className="sticky top-0 left-0 right-0 z-50 border-b-gray-50  p-4  w-full  pb-5 backdrop-blur-md ">
+    <header className="sticky top-0 left-0 right-0 z-50 border-b-gray-50  p-2  w-full   backdrop-blur-md ">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-10 mb-4">
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 20 }}
