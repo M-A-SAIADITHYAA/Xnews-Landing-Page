@@ -22,7 +22,7 @@ const Hero = () => {
         text:"Need"
       }]
   return (
-    <div id ="hero" >
+    <div id ="Hero" >
       <div className="flex flex-col items-center justify-center h-[40rem]">
         <p className='text-xs sm:text-5xl text-neutral-600 '>
           Legacy media is corrupted

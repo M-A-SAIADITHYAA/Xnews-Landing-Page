@@ -7,6 +7,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import Features from './components/Features'
 import { ThemeProvider } from "@/components/theme-provider"
+import Pricing from './components/Pricing'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
       <Header/>
       <Hero/>
       <Features/>
+      <Pricing/>
       </ThemeProvider>
     </>
   )

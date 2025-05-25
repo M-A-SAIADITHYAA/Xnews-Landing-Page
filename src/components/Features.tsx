@@ -8,7 +8,7 @@ const Features = () => {
         visible:{opacity:1, y:30}
     }
   return (
-    <div id = "features" className='w-full bg-black min-h-screen sm:py-20 py-12 px-4 md:px-6'>
+    <div id = "Campaign" className='w-full bg-black min-h-screen sm:py-20 py-12 px-4 md:px-6'>
         <motion.div 
         className="text-center"
         initial="hidden"
@@ -29,7 +29,7 @@ const Features = () => {
           viewport={{ once: true, margin: "-100px" }}
           variants={fadeInUp}
           transition={{ duration: 0.5 }}> */}
-            <CardContainer className=''>
+            <CardContainer className='h-64 w-full'>
               <CardBody className='bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border '>
               <CardItem
           // translateZ="100"
@@ -37,9 +37,8 @@ const Features = () => {
           // rotateZ={-10}
           className="w-full mt-4"
         >
-          <blockquote className="twitter-tweet bg-black"><p lang="en" dir="ltr">The legacy media is dying <a href="https://t.co/njUqEkm310">https://t.co/njUqEkm310</a></p>&mdash; Kekius Maximus (@elonmusk) <a href="https://twitter.com/elonmusk/status/1775410685553652001?ref_src=twsrc%5Etfw">April 3, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </CardItem>
-
+<blockquote className="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Legacy media companies are desperately trying to kill this platform by any means possible <a href="https://t.co/WzihRGtVth">https://t.co/WzihRGtVth</a></p>&mdash; Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1727564703440797745?ref_src=twsrc%5Etfw">November 23, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
+</CardItem>
               </CardBody>
             </CardContainer>
             
@@ -60,7 +59,8 @@ const Features = () => {
           // rotateZ={-10}
           className="w-full mt-4"
         >
-          <blockquote className="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">The legacy media is dying <a href="https://t.co/njUqEkm310">https://t.co/njUqEkm310</a></p>&mdash; Kekius Maximus (@elonmusk) <a href="https://twitter.com/elonmusk/status/1775410685553652001?ref_src=twsrc%5Etfw">April 3, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
+
+<blockquote className="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Legacy media companies are desperately trying to kill this platform by any means possible <a href="https://t.co/WzihRGtVth">https://t.co/WzihRGtVth</a></p>&mdash; Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1727564703440797745?ref_src=twsrc%5Etfw">November 23, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" ></script>
         </CardItem>
 
               </CardBody>
@@ -81,8 +81,8 @@ const Features = () => {
           // rotateZ={-10}
           className="w-full mt-4"
         >
-<blockquote className="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Legacy media must die <a href="https://t.co/At02Y9lJKJ">https://t.co/At02Y9lJKJ</a></p>&mdash; Kekius Maximus (@elonmusk) <a href="https://twitter.com/elonmusk/status/1870894164877156382?ref_src=twsrc%5Etfw">December 22, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>        </CardItem>
-
+<blockquote className="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Legacy media companies are desperately trying to kill this platform by any means possible <a href="https://t.co/WzihRGtVth">https://t.co/WzihRGtVth</a></p>&mdash; Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1727564703440797745?ref_src=twsrc%5Etfw">November 23, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
+</CardItem>
               </CardBody>
             </CardContainer>
             {/* </motion.div> */}
